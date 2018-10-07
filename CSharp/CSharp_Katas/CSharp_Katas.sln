@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_Katas", "CSharp_Katas\CSharp_Katas.csproj", "{DE88D083-9714-4C2A-9343-034C11BE448B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F50720C7-E063-4763-BA35-40374800FC4B}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
@@ -12,9 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Step1", "Step1", "{CEBC178F-995B-471D-8911-6E1E30861267}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step1_Algo", "Step1_Algo\Step1_Algo.csproj", "{BE3380F6-D6A1-4D5A-896D-ADA8C062E281}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Step1_Algo", "Step1_Algo\Step1_Algo.csproj", "{BE3380F6-D6A1-4D5A-896D-ADA8C062E281}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step1_Algo.Tests", "Step1_Algo.Tests\Step1_Algo.Tests.csproj", "{38216E26-68FB-4292-B235-38C7F80561B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Step1_Algo.Tests", "Step1_Algo.Tests\Step1_Algo.Tests.csproj", "{38216E26-68FB-4292-B235-38C7F80561B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Step2", "Step2", "{7BD6108E-F246-47EE-AA9E-07084B5E5299}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Step3", "Step3", "{294D610D-0B48-4155-8D39-ABEC2C4EACA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step2_ASPMVC", "Step2_ASPMVC\Step2_ASPMVC.csproj", "{740E83D6-CCBE-476D-A735-A887F2660648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Step3_Framework", "Step3_Framework\Step3_Framework.csproj", "{05AA21CF-3310-4E08-BF42-0DD51D050FB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE88D083-9714-4C2A-9343-034C11BE448B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE88D083-9714-4C2A-9343-034C11BE448B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE88D083-9714-4C2A-9343-034C11BE448B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE88D083-9714-4C2A-9343-034C11BE448B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE3380F6-D6A1-4D5A-896D-ADA8C062E281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE3380F6-D6A1-4D5A-896D-ADA8C062E281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE3380F6-D6A1-4D5A-896D-ADA8C062E281}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +36,14 @@ Global
 		{38216E26-68FB-4292-B235-38C7F80561B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38216E26-68FB-4292-B235-38C7F80561B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38216E26-68FB-4292-B235-38C7F80561B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740E83D6-CCBE-476D-A735-A887F2660648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740E83D6-CCBE-476D-A735-A887F2660648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740E83D6-CCBE-476D-A735-A887F2660648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740E83D6-CCBE-476D-A735-A887F2660648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AA21CF-3310-4E08-BF42-0DD51D050FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AA21CF-3310-4E08-BF42-0DD51D050FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AA21CF-3310-4E08-BF42-0DD51D050FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AA21CF-3310-4E08-BF42-0DD51D050FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +51,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BE3380F6-D6A1-4D5A-896D-ADA8C062E281} = {CEBC178F-995B-471D-8911-6E1E30861267}
 		{38216E26-68FB-4292-B235-38C7F80561B0} = {CEBC178F-995B-471D-8911-6E1E30861267}
+		{740E83D6-CCBE-476D-A735-A887F2660648} = {7BD6108E-F246-47EE-AA9E-07084B5E5299}
+		{05AA21CF-3310-4E08-BF42-0DD51D050FB0} = {294D610D-0B48-4155-8D39-ABEC2C4EACA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0519F260-3DA4-48DE-8EF3-C515D5CD7D0F}
